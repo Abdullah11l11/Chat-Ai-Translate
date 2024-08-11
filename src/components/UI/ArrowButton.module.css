@@ -1,0 +1,11 @@
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  &:hover img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}

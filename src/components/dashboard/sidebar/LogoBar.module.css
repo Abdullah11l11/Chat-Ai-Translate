@@ -1,0 +1,28 @@
+.logo-bar {
+  display: flex;
+  align-items: center;
+  color: #DFE2DC;
+  gap: 1.75rem;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 3rem;
+    font-weight: bold;
+    height: 3rem;
+    background-color: #FF805F;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+
+  h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+}

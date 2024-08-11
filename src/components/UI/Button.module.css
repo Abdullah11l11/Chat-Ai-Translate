@@ -1,0 +1,18 @@
+.button {
+  background-color: #FF805F;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  border-radius: .75rem;
+  -webkit-border-radius: .75rem;
+  -moz-border-radius: .75rem;
+  -ms-border-radius: .75rem;
+  -o-border-radius: .75rem;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

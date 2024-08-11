@@ -1,0 +1,23 @@
+.link {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: #D5D2D2;
+  font-weight: 600;
+  padding: 15px;
+  padding-left: 20px;
+  gap: 15px;
+  transition: .15s linear;
+  -webkit-transition: .15s linear;
+  -moz-transition: .15s linear;
+  -ms-transition: .15s linear;
+  -o-transition: .15s linear;
+
+
+}
+
+.link.active,
+.link:hover {
+  border-left: 8px solid #FF805F;
+  color: #FF805F;
+}

@@ -1,0 +1,23 @@
+.chat {
+  padding: 2.5rem 2rem 2rem;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+
+.chat::-webkit-scrollbar {
+  width: 5px;
+  background-color: #13141A;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.chat::-webkit-scrollbar-thumb {
+  background-color: #FF805F;
+
+}

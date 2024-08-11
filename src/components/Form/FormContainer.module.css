@@ -1,0 +1,29 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80%;
+  width: calc(700px - 12px);
+  background-color: black;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+
+  >* {
+    width: 100%;
+
+    >* {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .center {
+    width: calc(90% - 12px) !important;
+  }
+}

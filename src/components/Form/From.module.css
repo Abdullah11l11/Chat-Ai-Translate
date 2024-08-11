@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-direction: column;
+  .forget {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #A7ACBB;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  > *:not(.forget, div:last-child) {
+    width: 80%;
+    min-height: 3rem
+  }
+}

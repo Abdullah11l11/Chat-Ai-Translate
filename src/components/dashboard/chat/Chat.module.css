@@ -1,0 +1,16 @@
+.chat-container {
+  flex: 1;
+  background-color: #13141A;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .chat-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+}

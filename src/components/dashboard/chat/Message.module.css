@@ -1,0 +1,40 @@
+.message {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin: 10px 0;
+  width: 100%;
+  
+
+  .icon {
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: #DFE2EB;
+    background-color: #FF805F;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+  .message-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 12px 1rem;
+    background-color: #2C2D32;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+}

@@ -1,0 +1,55 @@
+.holder {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: capitalize;
+  align-items: center;
+
+  .title {
+    opacity: 0;
+    font-size: 96px;
+    letter-spacing: 7px;
+    animation: apear 1s forwards;
+    -webkit-animation: apear 1s forwards;
+}
+
+  .description {
+    opacity: 0;
+    font-size: 20px;
+    margin-bottom: .5rem;
+    line-height: 2;
+    animation: apear 1s .3s forwards;
+    -webkit-animation: apear 1s .3s forwards;
+}
+
+  span {
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .holder .title {
+    font-size: 40px !important;
+  }
+
+  .description {
+    font-size: 15px !important;
+  }
+}
+
+@keyframes apear {
+  from {
+    opacity: 0;
+    transform: translateY(4rem);
+    -webkit-transform: translateY(4rem);
+    -moz-transform: translateY(4rem);
+    -ms-transform: translateY(4rem);
+    -o-transform: translateY(4rem);
+}
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
